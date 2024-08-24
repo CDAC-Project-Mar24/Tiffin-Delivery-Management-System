@@ -5,7 +5,6 @@ import './App.css'
 import Signin from './Pages/Signin'
 import Signup from './Pages/signup'
 
-import Aboutus from './Components/aboutus'
 import ActiveCustomers from './Pages/ActiveCustomers'
 import AddDeliveryBoy from './Pages/Add DeliveryBoy'
 import AdminHome from './Pages/AdminHome/index'
@@ -32,7 +31,7 @@ import Description from './Pages/Tiffin/tiffindetails/description'
 import Test from './Pages/Tiffin/tiffindetails/test'
 import UserProfile from './Pages/Tiffin/user profile/userProfile'
 import SetPayment from './Pages/Tiffin/userPayment/payment'
-import UserOrders from './Pages/UserOrders';
+import UserOrders from './Pages/UserOrders'
 
 function App() {
   return (
@@ -55,7 +54,6 @@ function App() {
           />
           <Route path='/CustomerListAdmin' element={<CustomerListAdmin />} />
           <Route path='/ActiveCustomers' element={<ActiveCustomers />} />
-          <Route path='/Aboutus' element={<Aboutus />} />
           <Route path='/AddDeliveryBoy' element={<AddDeliveryBoy />} />
           <Route path='/AdminTiffin' element={<Admintiffin />} />
           <Route
